@@ -1,0 +1,11 @@
+.enlarge-on-hover {
+    /* Your existing styles */
+
+    /* Slow transition with 2 seconds duration and ease timing */
+    transition: transform 2s ease-out; /* 2 seconds duration */
+}
+
+.enlarge-on-hover:hover {
+    transform: scale(1.05);
+    background-color: rgba(1, 32, 93, 0.35) !important;
+}
